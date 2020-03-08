@@ -1,7 +1,7 @@
 #! python3
 """
-Uses data from team schedule worksheet and creates calendar events on the google calendar
-which is then synced to the TOC website
+Uses data from team schedule worksheet and creates calendar events on the google calendar,
+which is then synced to the TOC website via Cloversites built-in sync function
 """
 
 from __future__ import print_function
@@ -243,10 +243,3 @@ def create_ics(sourceCalData, outFile):
 
 if __name__ == '__main__':
     main()
-
-
-# Client ID
-# 551233068350-dk9d09b6roi1fiiipbmq6racdfo4cb6o.apps.googleusercontent.com
-
-# Client Secret
-# lwj98MaanPxUnw3mvixO1dKt
